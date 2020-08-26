@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% spaceless %}
-	$0
-{% endspaceless %}</string>
+    <string>{% form_theme ${1:form} '${2:${3:template}${4:.html.twig}}' %}$0</string>
     <key>name</key>
-    <string>spaceless</string>
+    <string>form_theme</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>spaceless</string>
+    <string>form_theme</string>
     <key>uuid</key>
-    <string>DCEC3E3A-1E54-47A1-85D7-0775708FB45B</string>
+    <string>8ABEF379-1728-4FAE-9352-9FFFC7677E34</string>
 </dict>
 </plist>
