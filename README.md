@@ -7,6 +7,7 @@ A [TextMate][textmate] _(and [Sublime Text][sublime])_ bundle for [Twig][twig].
 
 I'd like to thank a few people that have helped me out with the creation of this bundle.
 
+* __Anomareh__ for source code.
 * __taavi__ for fixing a bug stopping the bundle from actually working in TextMate.
 * __DuoSRX__ for contributing a bunch of snippets.
 * __Infininight__ in __#textmate__ _(freenode)_ for helping me a ton with the rewrite.
@@ -57,11 +58,11 @@ To aid theming, here's a list of what each Twig element is scoped to.
         Embedded:
             {{ }}:     meta.tag.inline.any.html meta.tag.template.value.twig
             {% %}:     meta.tag.inline.any.html meta.tag.template.block.twig
-            
+
     Constants:
         Language:      constant.language.twig
         Numeric:       constant.numeric.twig
-        
+
     Operators:
         Arithmetic:    keyword.operator.arithmetic.twig
         Assignment:    keyword.operator.assignment.twig
@@ -69,7 +70,7 @@ To aid theming, here's a list of what each Twig element is scoped to.
         Comparison:    keyword.operator.comparison.twig
         Logical:       keyword.operator.logical.twig
         Other:         keyword.operator.other.twig
-        
+
     Objects:           variable.other.twig
     Properties:        variable.other.property.twig
         Accessors:
@@ -77,7 +78,7 @@ To aid theming, here's a list of what each Twig element is scoped to.
             Array:
                 Begin: punctuation.section.array.begin.twig
                 End:   punctuation.section.array.end.twig
-                
+
     Strings:
         Single:        string.quoted.single.twig
         Double:        string.quoted.double.twig
@@ -92,9 +93,9 @@ To aid theming, here's a list of what each Twig element is scoped to.
             End:       punctuation.section.hash.end.twig
         Separator:     punctuation.separator.object.twig
             Keys:      punctuation.separator.key-value.twig
-            
+
     Keywords:          keyword.control.twig
-    
+
     Functions:         support.function.twig
         Parens:
             Begin:     punctuation.definition.parameters.begin.twig
