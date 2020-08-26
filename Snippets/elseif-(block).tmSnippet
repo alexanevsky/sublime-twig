@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% import '${1:${2:template}${3:.html.twig}}' as ${4:var} %}$0</string>
+    <string>{% elseif ${1:expression} %}
+    $0</string>
     <key>name</key>
-    <string>import</string>
+    <string>elseif (block)</string>
     <key>scope</key>
     <string>text.html.twig</string>
     <key>tabTrigger</key>
-    <string>import</string>
+    <string>elseif.</string>
     <key>uuid</key>
-    <string>B197EE6D-D094-4934-8944-A4D4BC1638BF</string>
+    <string>0BEA6D04-0D04-445C-BE70-1C3DF0AC3B02</string>
 </dict>
 </plist>

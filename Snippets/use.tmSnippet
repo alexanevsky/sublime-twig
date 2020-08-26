@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>content</key>
-    <string>{% use '${1:template}'${2: with ${3:block} as ${4:alias}}} %}$0</string>
+    <string>{% use '${1:${2:template}${3:.html.twig}}'${4: with ${5:block} as ${6:alias}} %}$0</string>
     <key>name</key>
     <string>use</string>
     <key>scope</key>

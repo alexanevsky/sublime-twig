@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>contactEmailRot13</key>
-    <string>Mbarmreb5@tznvy.pbz</string>
+    <string>alexander@lashchevsky.me</string>
     <key>contactName</key>
-    <string>Andrew Fricke</string>
+    <string>Alexanevsky</string>
     <key>description</key>
     <string>&lt;a href="http://www.twig-project.org/"&gt;Twig&lt;/a&gt;, the flexible, fast, and secure template language for PHP.</string>
     <key>mainMenu</key>
@@ -37,6 +37,8 @@
             <string>47C3309B-7B03-4838-88F7-4C52A10F4B7A</string>
             <string>0D0FA967-4952-4709-9834-CC42E282B642</string>
             <string>0BEA6D04-0D04-445C-BE70-1C3DF0AC3B00</string>
+            <string>0BEA6D04-0D04-445C-BE70-1C3DF0AC3B01</string>
+            <string>0BEA6D04-0D04-445C-BE70-1C3DF0AC3B02</string>
             <string>CB2AF7A4-0A08-4574-B419-71431710DE15</string>
             <string>3FC91D7E-2AE9-418C-AE6A-118179494198</string>
             <string>A4432221-C42C-4258-88AB-5C9E6B7366B0</string>
