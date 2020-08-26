@@ -1471,7 +1471,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=is not\s)(constant|divisibleby|defined|empty|even|iterable|null|odd)</string>
+            <string>(?&lt;=is(?: not)\s)(constant|divisibleby|defined|empty|even|iterable|null|odd)</string>
         </dict>
 
         <!-- MACROS -->
