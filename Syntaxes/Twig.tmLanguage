@@ -1371,7 +1371,7 @@
         <key>twig-keywords</key>
         <dict>
             <key>match</key>
-            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|embed|form_theme|filter|for|if|macro|raw|sandbox|set|trans|verbatim)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
+            <string>(?&lt;=\s)((?:end)?(?:apply|autoescape|block|embed|form_theme|filter|for|if|macro|raw|sandbox|set|trans|verbatim)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
             <key>name</key>
             <string>keyword.control.twig</string>
         </dict>
@@ -1380,7 +1380,7 @@
         <key>twig-functions-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|country_timezones|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|not same as|same as|source|template_from_string)(\()</string>
+            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|country_timezones|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1471,7 +1471,10 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=is\s)(not constant|constant|not divisibleby|divisibleby|not defined|defined|not empty|empty|not even|even|not iterable|iterable|not null|null|not odd|odd)</string>
+            <string>
+                (?&lt;=is\s)(constant|divisibleby|defined|empty|even|iterable|null|odd)
+                (?&lt;=is\snot\s)(constant|divisibleby|defined|empty|even|iterable|null|odd)
+            </string>
         </dict>
 
         <!-- MACROS -->
