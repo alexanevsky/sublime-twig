@@ -1380,7 +1380,7 @@
         <key>twig-functions-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=[\s\(\[\{:,])(apply|attribute|block|country_timezones|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
+            <string>(?&lt;=[\s\(\[\{:,])(apply|attribute|block|country_timezones|constant|cycle|date|divisible by|dump|include|is_granted|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
